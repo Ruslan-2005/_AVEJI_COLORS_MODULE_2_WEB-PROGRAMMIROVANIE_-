@@ -1,0 +1,117 @@
+.colors,
+.colors * {
+  box-sizing: border-box;
+}
+.colors {
+  background: #ffffff;
+  height: 740px;
+  position: relative;
+  overflow: hidden;
+}
+.backgrounds {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 211px;
+}
+.main {
+  color: #000000;
+  text-align: left;
+  font-family: var(--text-small-web-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--text-small-web-font-size, 14px);
+  line-height: var(--text-small-web-line-height, 20px);
+  font-weight: var(--text-small-web-font-weight, 400);
+  position: absolute;
+  left: 24px;
+  top: 111px;
+}
+.background-allert {
+  background: var(--text-main, #212529);
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 22px;
+  top: 139px;
+}
+.background-allert2 {
+  background: var(--accent-main, #ddd7c0);
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 22px;
+  top: 347px;
+}
+.background-allert3 {
+  background: var(--bg-white, #ffffff);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #ececec;
+  border-width: 1px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 22px;
+  top: 243px;
+}
+.accent {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 315px;
+}
+.background-allert4 {
+  background: var(--form-error, #e13a3a);
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 22px;
+  top: 451px;
+}
+.background-allert5 {
+  background: var(--form-success, #f9c67b);
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 70px;
+  top: 451px;
+}
+.form-colors {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 419px;
+}
+._1-web {
+  color: var(--black-100, #101828);
+  text-align: left;
+  font-family: var(--h1-web-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--h1-web-font-size, 50px);
+  line-height: var(--h1-web-line-height, 60px);
+  font-weight: var(--h1-web-font-weight, 500);
+  position: absolute;
+  right: 54.89%;
+  left: 5.98%;
+  width: 39.13%;
+  bottom: 89.32%;
+  top: 2.57%;
+  height: 8.11%;
+}
